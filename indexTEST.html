@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="utf-8">  
+  <link href="style.css" rel="stylesheet" type="text/css">
+<html>
+<head>
+    <title>
+        messagetesthtml
+    </title>
+</head>
+<body>
+<div class="mm">
+
+
+  <div class="menu">
+    <p class="pMenu">Настройки</p>
+    <p class="pMenu">Диалоги</p>
+    <p class="pMenu">Выход</p>
+  </div>
+<div class="mainInterface">
+  <div class="users">
+    <button id="button" class="users1">test</button>
+    <script>
+      button.onclick = function() {
+  alert('Клик!');
+};
+
+  </script>
+  </div>
+  <div class="message">
+    <div class="messages_content">
+      <div class="dataPers">
+       <p сlass="nameSurname">ФИО</p>
+       <p class="date">date</p>
+      </div>
+      <div>
+        <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex eveniet repellat, nemo omnis id nulla, obcaecati incidunt, possimus qui officia voluptate mollitia vitae debitis culpa reprehenderit ipsam ullam consequuntur sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi quam nisi ducimus aliquid voluptatum reiciendis ratione atque tenetur ipsa, culpa, facilis rerum accusantium laudantium itaque labore laborum, odit adipisci?Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      </div>
+      
+    </div>
+    
+    <textarea class="insertContent" id="insertMessage" placeholder="Введите сообщение"> fdsfsdf</textarea>
+    <button id="insert_msg" class="insert_msg" name="Отправить">
+    </button>
+  </div>
+
+<script>
+  let text = (document.getElementById('insertMessage').value);
+  console.log(text);
+
+</script>
+</div>
+</div>
+</body>
+</html>
